@@ -1,0 +1,14 @@
+.env*
+
+
+
+
+#frontend/.gitignore
+frontend/node_modules
+frontend/.next
+frontend/next-env.d.ts
+
+
+#backend/.gitignore
+backend/node_modules
+backend/.env

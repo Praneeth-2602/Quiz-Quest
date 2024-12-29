@@ -59,13 +59,19 @@ git clone https://github.com/BhattAnsh/quiz-quest.git
 cd quiz-quest
 ```
 3. Configure environment variables:
-   - Create a `.env` file in the root directory
-   - Add the following configuration:
+   - Create a `.env` file in the root directory of frontend and backend both
+   - Add the following configuration in backend:
    ```plaintext
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
    PORT=5000
    ```
+   - Add the following configuration in frontend:
+   ```plaintext
+   PORT = 3000
+   GOOGLE_API_KEY = your_api_key
+   ```
+   
 3. go to respective directory:
    ```bash
    cd frontend or cd backend
@@ -80,15 +86,7 @@ cd quiz-quest
    npm run dev
    ```
 
-## Usage
 
-1. Navigate to the application in your browser:
-```
-http://localhost:3000
-```
-
-2. Sign up or log in to access the dashboard
-3. Start creating or joining quizzes!
 
 ## Future Enhancements
 

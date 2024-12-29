@@ -16,7 +16,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 // Start the Server
-const PORT = process.env.PORT || 5000;
+const PORT = dotenv.config().parsed?.PORT || 5000;  // Default port is 5000
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
