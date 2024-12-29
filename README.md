@@ -58,25 +58,27 @@ git clone https://github.com/BhattAnsh/quiz-quest.git
 ```bash
 cd quiz-quest
 ```
-
-3. Install dependencies for both client and server:
-```bash
-npm install
-```
-
-4. Configure environment variables:
+3. Configure environment variables:
    - Create a `.env` file in the root directory
    - Add the following configuration:
-```plaintext
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
-```
+   ```plaintext
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   PORT=5000
+   ```
+3. go to respective directory:
+   ```bash
+   cd frontend or cd backend
+   ```
+4. Install dependencies for frontend:
+   ```bash
+   npm install
+   ```
 
 5. Start the development server:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 ## Usage
 
